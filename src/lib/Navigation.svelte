@@ -7,7 +7,7 @@
 	let activeTab = 'favs';
 
 	const tabs = [
-		{ id: 'favs', name: 'Favorites', component: Favs },
+		{ id: 'favs', name: 'Favourites', component: Favs },
 		{ id: 'discoveries', name: 'Discoveries', component: Discoveries },
 		{ id: 'links', name: 'Links', component: Links },
 		{ id: 'about', name: 'About', component: About },
