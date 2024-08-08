@@ -94,8 +94,8 @@
 
 	onMount(() => {
 		const simulation = d3.forceSimulation(nodes)
-            .force("link", d3.forceLink(links).id(d => d.id).distance(150))
-            .force("charge", d3.forceManyBody().strength(-300))
+            .force("link", d3.forceLink(links).id(d => d.id).distance(100))
+            .force("charge", d3.forceManyBody().strength(-550))
             .force("center", d3.forceCenter(width / 2, height / 2))
             .force("x", d3.forceX().strength(0.1))
             .force("y", d3.forceY().strength(0.1));
