@@ -1,11 +1,9 @@
 <script>
-
-import Graph from './lib/Graph.svelte';
+import Navigation from './lib/Navigation.svelte';
 </script>
 
-<main>
-    <Graph />
-</main>
+<Navigation />
 
 <style>
+
 </style>
